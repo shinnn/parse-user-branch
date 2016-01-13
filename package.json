@@ -1,0 +1,39 @@
+{
+  "name": "parse-user-branch",
+  "version": "1.0.0",
+  "description": "Parse a username:branch string that is available for Github commit comparison API",
+  "repository": "shinnn/parse-user-branch",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --config @shinnn browser.js index.js index.jsnext.js test.js",
+    "test": "node --strong_mode --throw-deprecation --track-heap-objects test.js | tap-spec",
+    "coverage": "node --strong_mode node_modules/.bin/istanbul cover test.js"
+  },
+  "license": "MIT",
+  "jsnext:main": "index.jsnext.js",
+  "files": [
+    "index.js",
+    "index.jsnext.js"
+  ],
+  "keywords": [
+    "string",
+    "user",
+    "username",
+    "branch",
+    "git",
+    "parse",
+    "object",
+    "github",
+    "browser",
+    "client-side"
+  ],
+  "devDependencies": {
+    "@shinnn/eslint-config": "^1.4.0",
+    "eslint": "^1.10.3",
+    "istanbul": "^0.4.2",
+    "require-from-string": "^1.1.0",
+    "rollup": "^0.25.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  }
+}
