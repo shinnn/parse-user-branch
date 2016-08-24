@@ -4,7 +4,7 @@
 [![Bower version](https://img.shields.io/bower/v/parse-user-branch.svg)](https://github.com/shinnn/parse-user-branch/releases)
 [![Build Status](https://travis-ci.org/shinnn/parse-user-branch.svg)](https://travis-ci.org/shinnn/parse-user-branch)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/parse-user-branch.svg)](https://coveralls.io/github/shinnn/parse-user-branch?branch=master)
-[![devDependency Status](https://david-dm.org/shinnn/parse-user-branch/dev-status.svg)](https://david-dm.org/shinnn/parse-user-branch#info=devDependencies)
+[![devDependencies Status](https://david-dm.org/shinnn/parse-user-branch/dev-status.svg)](https://david-dm.org/shinnn/parse-user-branch?type=dev)
 
 Parse a `username:branch` string that is available for [Github](https://github.com/) [commit comparison API](https://developer.github.com/v3/repos/commits/#compare-two-commits)
 
